@@ -1,0 +1,37 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Temporary files
+*.tmp
+.tmp/
+
+# Python
+__pycache__/
+*.pyc
+.Python
+env/
+venv/
+
+# Local development
+.env
+.env.local
+*.local
+
+# Backup files
+*.bak
+*.backup

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NetSapiens API v1 | API Reference</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <div class="logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <rect x="3" y="3" width="7" height="7" fill="currentColor"/>
+          <rect x="14" y="3" width="7" height="7" fill="currentColor"/>
+          <rect x="3" y="14" width="7" height="7" fill="currentColor"/>
+          <rect x="14" y="14" width="7" height="7" fill="currentColor"/>
+        </svg>
+      </div>
+      <nav class="top-nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link active">Guides</a>
+        <a href="#" class="nav-link">API Reference</a>
+        <a href="#" class="nav-link">Changelog</a>
+        <a href="#" class="nav-link">Discussions</a>
+      </nav>
+    </div>
+    <div class="top-bar-right">
+      <div class="search-container">
+        <input type="search" id="global-search" placeholder="Search" />
+        <kbd>CTRL+K</kbd>
+      </div>
+      <button class="theme-toggle">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="2"/>
+          <path d="M10 2v2M10 16v2M2 10h2M16 10h2" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <div class="sidebar-title">NETSAPIENS API V1</div>
+        
+        <div class="nav-group">
+          <div class="nav-item expandable">
+            <span>Authentication/Access Token</span>
+            <svg class="expand-icon" width="12" height="12" viewBox="0 0 12 12">
+              <path d="M4 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <div class="nav-subitems" style="display: none;">
+            <div class="nav-subitem" data-group="oauth">OAuth - Username/Password</div>
+            <div class="nav-subitem" data-group="machine">API Key (Machine 2 Machine)</div>
+            <div class="nav-subitem" data-group="jwt">JWT (JSON Web Token)</div>
+          </div>
+        </div>
+
+        <div id="api-groups" class="api-groups">
+          <!-- API groups will be dynamically inserted here -->
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <div class="content-header">
+        <h1 id="endpoint-title">Select an endpoint</h1>
+        <div class="endpoint-method-url">
+          <span class="method-badge" id="method-badge"></span>
+          <code class="endpoint-url" id="endpoint-url"></code>
+        </div>
+      </div>
+
+      <div class="content-body">
+        <div class="description-section" id="description">
+          <p>Choose an API endpoint from the sidebar to view its documentation.</p>
+        </div>
+
+        <div class="params-section" id="params-section" style="display: none;">
+          <h2>Body Params</h2>
+          <div id="params-list"></div>
+        </div>
+
+        <div class="responses-section" id="responses-section" style="display: none;">
+          <h2>Responses</h2>
+          <div class="response-item">
+            <div class="response-code success">200</div>
+            <div class="response-desc">Successful response</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <aside class="code-panel">
+      <div class="code-header">
+        <div class="language-tabs">
+          <button class="lang-tab active" data-lang="shell">Shell</button>
+          <button class="lang-tab" data-lang="node">Node</button>
+          <button class="lang-tab" data-lang="ruby">Ruby</button>
+          <button class="lang-tab" data-lang="php">PHP</button>
+          <button class="lang-tab" data-lang="python">Python</button>
+        </div>
+      </div>
+
+      <div class="code-content">
+        <div class="code-section">
+          <div class="code-label">
+            <span>URL</span>
+            <button class="copy-btn" data-copy="url">Copy</button>
+          </div>
+          <div class="url-box">
+            <code id="url-display">https://{server}/ns-api/</code>
+          </div>
+        </div>
+
+        <div class="code-section">
+          <div class="code-label">
+            <span>cURL Request</span>
+            <button class="copy-btn" data-copy="curl">Copy</button>
+          </div>
+          <pre class="code-block" id="curl-example"><code>curl -X GET \
+  https://{server}/ns-api/ \
+  -H "Authorization: Bearer YOUR_TOKEN"</code></pre>
+        </div>
+
+        <div class="code-section" id="response-example" style="display: none;">
+          <div class="code-label">
+            <span>Example Response</span>
+          </div>
+          <pre class="code-block"><code id="response-display">{
+  "status": "success",
+  "data": {}
+}</code></pre>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
