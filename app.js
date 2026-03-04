@@ -150,8 +150,6 @@
       descSection.innerHTML = '<p>No description available for this endpoint.</p>';
     }
     
-    // Update parameters documentation
-    renderParametersDocumentation(endpoint);
     
     // Update responses
     renderResponses(endpoint);
@@ -237,36 +235,6 @@
     return 'Enter value';
   }
 
-  function renderParametersDocumentation(endpoint) {
-    const paramsList = $('params-list');
-    const params = extractParameters(endpoint);
-    
-    if (params.length === 0) {
-      paramsList.innerHTML = '';
-      return;
-    }
-    
-    let html = '<div class="params-documentation">';
-    params.forEach(param => {
-      const isRequired = !param.optional;
-      html += `
-        <div class="param-item">
-          <div class="param-header">
-            <span class="param-name">${escapeHtml(param.field)}</span>
-            <span class="param-type">${escapeHtml(param.type || 'string')}</span>
-            ${isRequired ? 
-              '<span class="param-required">required</span>' : 
-              '<span class="param-optional">optional</span>'}
-          </div>
-          ${param.description ? 
-            `<div class="param-desc">${escapeHtml(stripHtmlTags(param.description))}</div>` : ''}
-        </div>
-      `;
-    });
-    html += '</div>';
-    
-    paramsList.innerHTML = html;
-  }
 
   function extractParameters(endpoint) {
     const params = [];
