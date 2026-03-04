@@ -51,7 +51,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Copy Endpoint to Domain"
   },
   {
     "type": "post",
@@ -105,7 +106,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Addresses"
   },
   {
     "type": "post",
@@ -229,7 +231,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create an Address"
   },
   {
     "type": "post",
@@ -360,7 +363,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create Address Endpoint"
   },
   {
     "type": "post",
@@ -414,7 +418,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Address"
   },
   {
     "type": "post",
@@ -468,7 +473,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Address Endpoint"
   },
   {
     "type": "post",
@@ -529,7 +535,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Duplicate an Address"
   },
   {
     "type": "post",
@@ -618,7 +625,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Address"
   },
   {
     "type": "post",
@@ -665,7 +673,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Address Endpoints"
   },
   {
     "type": "post",
@@ -768,7 +777,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update Address"
   },
   {
     "type": "post",
@@ -822,7 +832,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update User Endpoints"
   },
   {
     "type": "post",
@@ -932,7 +943,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Validate an Address"
   },
   {
     "type": "post",
@@ -986,7 +998,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Agents in a Callqueue"
   },
   {
     "type": "post",
@@ -1040,7 +1053,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create an Agent in a Callqueue"
   },
   {
     "type": "post",
@@ -1094,7 +1108,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Agents in a Callqueue"
   },
   {
     "type": "post",
@@ -1190,7 +1205,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Agents in a Callqueue"
   },
   {
     "type": "post",
@@ -1391,7 +1407,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update Agents in a Callqueue"
   },
   {
     "type": "post",
@@ -1459,7 +1476,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Change status of Agent in a Callqueue"
   },
   {
     "type": "post",
@@ -1590,7 +1608,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create an Agentlog"
   },
   {
     "type": "post",
@@ -1721,7 +1740,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Agent Logs in a Domain"
   },
   {
     "type": "post",
@@ -1782,7 +1802,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count AnswerRules"
   },
   {
     "type": "post",
@@ -1843,7 +1864,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create an AnswerRule"
   },
   {
     "type": "post",
@@ -1904,7 +1926,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete an AnswerRule"
   },
   {
     "type": "post",
@@ -1993,7 +2016,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read a User's AnswerRules"
   },
   {
     "type": "post",
@@ -2054,7 +2078,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Reorder AnswerRule"
   },
   {
     "type": "post",
@@ -2451,7 +2476,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update an AnswerRule"
   },
   {
     "type": "post",
@@ -2512,7 +2538,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Audio files in a Domain"
   },
   {
     "type": "post",
@@ -2573,7 +2600,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete an Audio File"
   },
   {
     "type": "post",
@@ -2648,7 +2676,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete an Audio File via link auth"
   },
   {
     "type": "post",
@@ -2723,7 +2752,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update an Audio file via link auth"
   },
   {
     "type": "get",
@@ -2805,7 +2835,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Play/Download Audio files"
   },
   {
     "type": "post",
@@ -2880,7 +2911,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Audio files in a Domain"
   },
   {
     "type": "post",
@@ -2955,7 +2987,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update an Audio file"
   },
   {
     "type": "post",
@@ -3072,7 +3105,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Upload one Audio file"
   },
   {
     "type": "post",
@@ -3140,7 +3174,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "count CDR by Domain"
   },
   {
     "type": "post",
@@ -3215,7 +3250,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "count CDR by Group"
   },
   {
     "type": "post",
@@ -3283,7 +3319,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "count CDR by Territory"
   },
   {
     "type": "post",
@@ -3358,7 +3395,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "count CDR by User"
   },
   {
     "type": "post",
@@ -3391,7 +3429,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Optimize CDRs that are older than a certain date"
   },
   {
     "type": "post",
@@ -3424,7 +3463,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Purge CDRs that are older than a certain date"
   },
   {
     "type": "post",
@@ -3492,7 +3532,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read CDR by Domain"
   },
   {
     "type": "post",
@@ -3574,7 +3615,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read CDR by Group"
   },
   {
     "type": "post",
@@ -3663,7 +3705,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read CDR by ID"
   },
   {
     "type": "post",
@@ -3731,7 +3774,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read CDR by Territory"
   },
   {
     "type": "post",
@@ -3806,7 +3850,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read CDR by User"
   },
   {
     "type": "post",
@@ -3867,7 +3912,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Report CDRs by Domain"
   },
   {
     "type": "post",
@@ -3928,7 +3974,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Report CDRs by Group"
   },
   {
     "type": "post",
@@ -3996,7 +4043,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Report CDRs by Group Type"
   },
   {
     "type": "post",
@@ -4057,7 +4105,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Report CDRs by Hostname"
   },
   {
     "type": "post",
@@ -4118,7 +4167,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Report CDRs by Reseller"
   },
   {
     "type": "post",
@@ -4207,7 +4257,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a CDR"
   },
   {
     "type": "get",
@@ -4317,7 +4368,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a new cdrexport"
   },
   {
     "type": "post",
@@ -4406,7 +4458,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a cdrexport"
   },
   {
     "type": "get",
@@ -4495,7 +4548,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Download a cdrexport"
   },
   {
     "type": "post",
@@ -4549,7 +4603,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Cdrexports"
   },
   {
     "type": "post",
@@ -4645,7 +4700,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a new cdrexport"
   },
   {
     "type": "post",
@@ -4706,7 +4762,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Schedules for Call Data records (CDRs)"
   },
   {
     "type": "post",
@@ -4914,7 +4971,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a new cdrSchedule"
   },
   {
     "type": "post",
@@ -4961,7 +5019,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete an existing cdrSchedule"
   },
   {
     "type": "post",
@@ -5029,7 +5088,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Schedules for Call Data records (CDRs)"
   },
   {
     "type": "post",
@@ -5237,7 +5297,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a cdrSchedule"
   },
   {
     "type": "post",
@@ -5291,7 +5352,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Answer an incoming call"
   },
   {
     "type": "post",
@@ -5387,7 +5449,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Record a message"
   },
   {
     "type": "post",
@@ -5441,7 +5504,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count active Calls"
   },
   {
     "type": "post",
@@ -5488,7 +5552,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Disconnect an active Call"
   },
   {
     "type": "post",
@@ -5535,7 +5600,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Place Call's source on hold"
   },
   {
     "type": "post",
@@ -5582,7 +5648,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Place Call's recipient on hold"
   },
   {
     "type": "post",
@@ -5671,7 +5738,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Make a new Call"
   },
   {
     "type": "post",
@@ -5725,7 +5793,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Dynamically park a call in a open park slot"
   },
   {
     "type": "post",
@@ -5821,7 +5890,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Playback a recorded message"
   },
   {
     "type": "post",
@@ -5882,7 +5952,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read active Calls"
   },
   {
     "type": "post",
@@ -5936,7 +6007,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Record an active Call"
   },
   {
     "type": "post",
@@ -5983,7 +6055,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Stop recording a Call"
   },
   {
     "type": "post",
@@ -6030,7 +6103,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Stop recording a Call"
   },
   {
     "type": "post",
@@ -6084,7 +6158,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Reject a Call"
   },
   {
     "type": "post",
@@ -6201,7 +6276,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Report active calls"
   },
   {
     "type": "post",
@@ -6269,7 +6345,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Transfer an active Call"
   },
   {
     "type": "post",
@@ -6316,7 +6393,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Unhold a Call"
   },
   {
     "type": "post",
@@ -6370,7 +6448,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Pause a call recording"
   },
   {
     "type": "post",
@@ -6445,7 +6524,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Agent Log for Call Center"
   },
   {
     "type": "post",
@@ -6527,7 +6607,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read DNIS Stats for Call Center"
   },
   {
     "type": "post",
@@ -6658,7 +6739,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Send Email Call Center Report"
   },
   {
     "type": "post",
@@ -6747,7 +6829,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Queue Stats for Call Center"
   },
   {
     "type": "post",
@@ -6836,7 +6919,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read User Stats for Call Center"
   },
   {
     "type": "post",
@@ -6960,7 +7044,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Callqueue in a Domain"
   },
   {
     "type": "post",
@@ -7014,7 +7099,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Queued Call"
   },
   {
     "type": "post",
@@ -7061,7 +7147,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a Callqueue"
   },
   {
     "type": "post",
@@ -7199,7 +7286,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read a Callqueue in a Domain"
   },
   {
     "type": "post",
@@ -7337,7 +7425,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Callqueue Reports in a Domain"
   },
   {
     "type": "post",
@@ -7398,7 +7487,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a Callqueue in a Domain"
   },
   {
     "type": "post",
@@ -7445,7 +7535,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Callqueue Stats in a Domain"
   },
   {
     "type": "post",
@@ -7527,7 +7618,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Add Wake-Up Call Requests for a subscriber"
   },
   {
     "type": "post",
@@ -7574,7 +7666,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Wake-Up Call Requests for a subscriber"
   },
   {
     "type": "post",
@@ -7635,7 +7728,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Call Requests"
   },
   {
     "type": "post",
@@ -7675,7 +7769,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Emergency numbers for domain"
   },
   {
     "type": "post",
@@ -7764,7 +7859,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a email report request"
   },
   {
     "type": "post",
@@ -7825,7 +7921,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a email report request"
   },
   {
     "type": "post",
@@ -7879,7 +7976,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read a email report request"
   },
   {
     "type": "post",
@@ -7968,7 +8066,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a email report request"
   },
   {
     "type": "post",
@@ -8022,7 +8121,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Charts"
   },
   {
     "type": "post",
@@ -8111,7 +8211,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create Chart in a Dashboard"
   },
   {
     "type": "post",
@@ -8158,7 +8259,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Chart"
   },
   {
     "type": "post",
@@ -8205,7 +8307,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "List Charts"
   },
   {
     "type": "post",
@@ -8266,7 +8369,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Charts"
   },
   {
     "type": "post",
@@ -8355,7 +8459,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update Chart in a Dashboard"
   },
   {
     "type": "post",
@@ -8409,7 +8514,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Conferences"
   },
   {
     "type": "post",
@@ -8540,7 +8646,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create the specified conference"
   },
   {
     "type": "post",
@@ -8587,7 +8694,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete the specified conference"
   },
   {
     "type": "post",
@@ -8669,7 +8777,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Conferences in certain domain"
   },
   {
     "type": "post",
@@ -8758,7 +8867,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update the specified conference"
   },
   {
     "type": "post",
@@ -8819,7 +8929,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create participants from the specified conference"
   },
   {
     "type": "post",
@@ -8859,7 +8970,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read participants from the specified conference"
   },
   {
     "type": "post",
@@ -8941,7 +9053,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read CDR for conference"
   },
   {
     "type": "post",
@@ -9009,7 +9122,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Connections"
   },
   {
     "type": "post",
@@ -9091,7 +9205,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Connection"
   },
   {
     "type": "post",
@@ -9145,7 +9260,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a Connection"
   },
   {
     "type": "post",
@@ -9220,7 +9336,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Connections"
   },
   {
     "type": "post",
@@ -9610,7 +9727,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a Connection"
   },
   {
     "type": "post",
@@ -9678,7 +9796,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Contacts"
   },
   {
     "type": "post",
@@ -9774,7 +9893,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Contact"
   },
   {
     "type": "post",
@@ -9842,7 +9962,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a Contact"
   },
   {
     "type": "post",
@@ -9945,7 +10066,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Contacts"
   },
   {
     "type": "post",
@@ -10076,7 +10198,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update Contacts"
   },
   {
     "type": "post",
@@ -10123,7 +10246,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Dashboard in a Domain"
   },
   {
     "type": "post",
@@ -10233,7 +10357,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create Dashboard in a Domain"
   },
   {
     "type": "post",
@@ -10273,7 +10398,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Dashboard in a Domain"
   },
   {
     "type": "post",
@@ -10320,7 +10446,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Toggle Dashboard as a Favorite"
   },
   {
     "type": "post",
@@ -10367,7 +10494,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Toggle Dashboard Visibility"
   },
   {
     "type": "post",
@@ -10414,7 +10542,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "List Dashboards in a Domain"
   },
   {
     "type": "post",
@@ -10475,7 +10604,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Dashboard in a Domain"
   },
   {
     "type": "post",
@@ -10592,7 +10722,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update Dashboard in a Domain"
   },
   {
     "type": "post",
@@ -10639,7 +10770,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read a Default value"
   },
   {
     "type": "post",
@@ -10749,7 +10881,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a new Department"
   },
   {
     "type": "post",
@@ -10789,7 +10922,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "List Departments in a Domain"
   },
   {
     "type": "post",
@@ -10878,7 +11012,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Devices for a Domain/User"
   },
   {
     "type": "post",
@@ -10946,7 +11081,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Device/Subscriber"
   },
   {
     "type": "post",
@@ -10993,7 +11129,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a Device/Subscriber"
   },
   {
     "type": "post",
@@ -11110,7 +11247,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Devices for a Domain/Subscriber"
   },
   {
     "type": "post",
@@ -11304,7 +11442,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a Device"
   },
   {
     "type": "post",
@@ -11372,7 +11511,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read a list of supported devices available for provisioning"
   },
   {
     "type": "post",
@@ -11412,7 +11552,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Device Profiles"
   },
   {
     "type": "post",
@@ -11459,7 +11600,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Device Profile"
   },
   {
     "type": "post",
@@ -11513,7 +11655,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a Device Profile"
   },
   {
     "type": "post",
@@ -11574,7 +11717,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Device Profiles"
   },
   {
     "type": "post",
@@ -11635,7 +11779,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read/View a Device Profile Image"
   },
   {
     "type": "post",
@@ -11689,7 +11834,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Dialplan"
   },
   {
     "type": "post",
@@ -11736,7 +11882,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a Dial Rule"
   },
   {
     "type": "post",
@@ -11783,7 +11930,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Dial Plans"
   },
   {
     "type": "post",
@@ -11823,7 +11971,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Dial policy/permissions"
   },
   {
     "type": "post",
@@ -11870,7 +12019,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Dial Rules in a Dial Plan"
   },
   {
     "type": "post",
@@ -11931,7 +12081,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Dial Rule"
   },
   {
     "type": "post",
@@ -11985,7 +12136,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a Dial Rule"
   },
   {
     "type": "post",
@@ -12032,7 +12184,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Dial Rules in a Dial Plan"
   },
   {
     "type": "post",
@@ -12177,7 +12330,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a Dial Rule"
   },
   {
     "type": "post",
@@ -12224,7 +12378,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count the number of Domains"
   },
   {
     "type": "post",
@@ -12341,7 +12496,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a new Domain"
   },
   {
     "type": "post",
@@ -12402,7 +12558,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete an existing Domain"
   },
   {
     "type": "post",
@@ -12442,7 +12599,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read info on a specific Domain"
   },
   {
     "type": "post",
@@ -12482,7 +12640,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read a billable summary for a domain"
   },
   {
     "type": "post",
@@ -12711,7 +12870,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update an existing Domain"
   },
   {
     "type": "post",
@@ -12772,7 +12932,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read/View a Image"
   },
   {
     "type": "post",
@@ -12847,7 +13008,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count MAC Addresses"
   },
   {
     "type": "post",
@@ -13153,7 +13315,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a MAC entry"
   },
   {
     "type": "post",
@@ -13200,7 +13363,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Device using its MAC address"
   },
   {
     "type": "post",
@@ -13254,7 +13418,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Device using its MAC address"
   },
   {
     "type": "post",
@@ -13567,7 +13732,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a Device using its MAC address"
   },
   {
     "type": "post",
@@ -13621,7 +13787,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Meetings"
   },
   {
     "type": "post",
@@ -13710,7 +13877,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Meeting"
   },
   {
     "type": "post",
@@ -13764,7 +13932,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a meeting"
   },
   {
     "type": "post",
@@ -13818,7 +13987,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Meeting(s)"
   },
   {
     "type": "post",
@@ -13872,7 +14042,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Request a Meeting ID"
   },
   {
     "type": "post",
@@ -13926,7 +14097,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a meeting"
   },
   {
     "type": "post",
@@ -13973,7 +14145,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Meeting Events"
   },
   {
     "type": "post",
@@ -14020,7 +14193,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Log a Meeting Event"
   },
   {
     "type": "post",
@@ -14088,7 +14262,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Meeting Events"
   },
   {
     "type": "post",
@@ -14233,7 +14408,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Send a new Message"
   },
   {
     "type": "post",
@@ -14287,7 +14463,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Message"
   },
   {
     "type": "post",
@@ -14327,7 +14504,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Notify All of Unread Messages"
   },
   {
     "type": "post",
@@ -14430,7 +14608,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Messages"
   },
   {
     "type": "post",
@@ -14505,7 +14684,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Send Email Missed Messages"
   },
   {
     "type": "get",
@@ -14648,7 +14828,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Accept Message Session for Agent"
   },
   {
     "type": "post",
@@ -14702,7 +14883,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Message Session (Conversations)"
   },
   {
     "type": "post",
@@ -14756,7 +14938,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Compale  Message Session for Agent"
   },
   {
     "type": "post",
@@ -14845,7 +15028,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Leave a Message Session"
   },
   {
     "type": "post",
@@ -14941,7 +15125,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Message Session (Conversations)"
   },
   {
     "type": "post",
@@ -15030,7 +15215,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update Message Session"
   },
   {
     "type": "post",
@@ -15070,7 +15256,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read NDP Servers"
   },
   {
     "type": "post",
@@ -15110,11 +15297,12 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read NDP Servers"
   },
   {
     "type": "post",
-    "url": "",
+    "url": "oauth2/token/",
     "title": "Createtokenpasswordoauth2",
     "name": "CreateTokenPasswordOauth2",
     "group": "Oauth2",
@@ -15178,11 +15366,12 @@
           }
         ]
       }
-    }
+    },
+    "description": "Generate access token with subscriber credentials"
   },
   {
     "type": "post",
-    "url": "",
+    "url": "oauth2/token/",
     "title": "Createtokenrefreshoauth2",
     "name": "CreateTokenRefreshOauth2",
     "group": "Oauth2",
@@ -15239,7 +15428,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Exchange refresh token for new access token"
   },
   {
     "type": "post",
@@ -15307,7 +15497,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create permission rule for a Dial Policy"
   },
   {
     "type": "post",
@@ -15361,7 +15552,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete permission rule for a Dial Policy"
   },
   {
     "type": "post",
@@ -15415,7 +15607,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read permission rule from a Dial Policy"
   },
   {
     "type": "post",
@@ -15483,7 +15676,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update permission rule for a Dial Policy"
   },
   {
     "type": "post",
@@ -15523,7 +15717,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Phoneconfiguration"
   },
   {
     "type": "post",
@@ -15570,7 +15765,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a phone configuration"
   },
   {
     "type": "post",
@@ -15617,7 +15813,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Phone Configuration"
   },
   {
     "type": "post",
@@ -15671,7 +15868,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Phone Configuration"
   },
   {
     "type": "post",
@@ -15725,7 +15923,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Phone Numbers in a Dial Plan"
   },
   {
     "type": "post",
@@ -15807,7 +16006,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Phone Number for Inventory"
   },
   {
     "type": "post",
@@ -15861,7 +16061,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a Phone Number"
   },
   {
     "type": "post",
@@ -15922,7 +16123,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Phone Numbers in a Dial Plan"
   },
   {
     "type": "post",
@@ -16074,7 +16276,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a Phone Number"
   },
   {
     "type": "post",
@@ -16142,7 +16345,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "List Presences in a Domain"
   },
   {
     "type": "post",
@@ -16189,7 +16393,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read queued calls in a Callqueue"
   },
   {
     "type": "post",
@@ -16243,7 +16448,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a queued call"
   },
   {
     "type": "post",
@@ -16290,7 +16496,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count the number of quota entries"
   },
   {
     "type": "post",
@@ -16358,7 +16565,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create quota for a domain"
   },
   {
     "type": "post",
@@ -16398,7 +16606,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete an existing domain"
   },
   {
     "type": "post",
@@ -16445,7 +16654,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read quotas of domains"
   },
   {
     "type": "post",
@@ -16499,7 +16709,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Quota Usage of domains"
   },
   {
     "type": "post",
@@ -16567,7 +16778,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update quota for a domain"
   },
   {
     "type": "post",
@@ -16607,7 +16819,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create Recordings"
   },
   {
     "type": "post",
@@ -16647,7 +16860,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete Recordings"
   },
   {
     "type": "post",
@@ -16708,7 +16922,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Recordings"
   },
   {
     "type": "post",
@@ -16818,7 +17033,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update Recordings"
   },
   {
     "type": "post",
@@ -16858,7 +17074,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count resellers"
   },
   {
     "type": "post",
@@ -16905,7 +17122,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a reseller"
   },
   {
     "type": "post",
@@ -16945,7 +17163,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a reseller"
   },
   {
     "type": "post",
@@ -17006,7 +17225,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read resellers"
   },
   {
     "type": "post",
@@ -17053,7 +17273,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a reseller"
   },
   {
     "type": "post",
@@ -17093,7 +17314,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Route"
   },
   {
     "type": "post",
@@ -17133,7 +17355,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Route Connections"
   },
   {
     "type": "post",
@@ -17173,7 +17396,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Route"
   },
   {
     "type": "post",
@@ -17213,7 +17437,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a route"
   },
   {
     "type": "post",
@@ -17260,7 +17485,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a Route Connection"
   },
   {
     "type": "post",
@@ -17342,7 +17568,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Routes"
   },
   {
     "type": "post",
@@ -17410,7 +17637,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Route Connections"
   },
   {
     "type": "post",
@@ -17450,7 +17678,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a Route"
   },
   {
     "type": "post",
@@ -17504,7 +17733,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a Route Connection"
   },
   {
     "type": "post",
@@ -17558,7 +17788,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a Route Connection"
   },
   {
     "type": "post",
@@ -17612,7 +17843,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count numbers with SMS support"
   },
   {
     "type": "post",
@@ -17673,7 +17905,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create SMS Number"
   },
   {
     "type": "post",
@@ -17734,7 +17967,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read numbers with SMS support"
   },
   {
     "type": "post",
@@ -17795,7 +18029,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update SMS Number"
   },
   {
     "type": "post",
@@ -17849,7 +18084,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Server info aka, element domain"
   },
   {
     "type": "post",
@@ -17896,7 +18132,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create an access token for access to SFU server"
   },
   {
     "type": "post",
@@ -17936,7 +18173,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "List Sites in a Domain"
   },
   {
     "type": "post",
@@ -17976,7 +18214,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Sites"
   },
   {
     "type": "post",
@@ -18023,7 +18262,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read info on a specific site"
   },
   {
     "type": "post",
@@ -18070,7 +18310,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read info on a specific site with billing info"
   },
   {
     "type": "post",
@@ -18117,7 +18358,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count Users in a Domain"
   },
   {
     "type": "post",
@@ -18458,7 +18700,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a new User"
   },
   {
     "type": "post",
@@ -18526,7 +18769,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete an existing User"
   },
   {
     "type": "post",
@@ -18573,7 +18817,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "List public info on Users"
   },
   {
     "type": "post",
@@ -18732,7 +18977,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read info on existing Users"
   },
   {
     "type": "post",
@@ -19066,7 +19312,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update an existing User"
   },
   {
     "type": "post",
@@ -19127,7 +19374,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a new event subscriptions"
   },
   {
     "type": "post",
@@ -19174,7 +19422,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a  event subscriptions"
   },
   {
     "type": "post",
@@ -19221,7 +19470,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "read a event subscriptions"
   },
   {
     "type": "post",
@@ -19310,7 +19560,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a specific Time Frame"
   },
   {
     "type": "post",
@@ -19378,7 +19629,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read info on a specific Time Frame"
   },
   {
     "type": "post",
@@ -19467,7 +19719,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a specific Time Frame"
   },
   {
     "type": "post",
@@ -19577,7 +19830,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a specific Time Range"
   },
   {
     "type": "post",
@@ -19687,7 +19941,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a specific Time Range"
   },
   {
     "type": "post",
@@ -19762,7 +20017,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Export Trace"
   },
   {
     "type": "post",
@@ -19809,7 +20065,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read turn server creds"
   },
   {
     "type": "post",
@@ -19856,7 +20113,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read Conversations (Vmail, Calls, Chat)"
   },
   {
     "type": "post",
@@ -19938,7 +20196,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count UI Configurations"
   },
   {
     "type": "post",
@@ -19978,7 +20237,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count UI Configurations"
   },
   {
     "type": "post",
@@ -20081,7 +20341,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a UI Configuration"
   },
   {
     "type": "post",
@@ -20205,7 +20466,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create a UI Definition"
   },
   {
     "type": "post",
@@ -20280,7 +20542,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a UI Configuration"
   },
   {
     "type": "post",
@@ -20320,7 +20583,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a UI Configuration Definition"
   },
   {
     "type": "post",
@@ -20402,7 +20666,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read a UI Configuration"
   },
   {
     "type": "post",
@@ -20442,7 +20707,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read a UI Configuration"
   },
   {
     "type": "post",
@@ -20538,7 +20804,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update a UI Configuration"
   },
   {
     "type": "post",
@@ -20620,11 +20887,12 @@
           }
         ]
       }
-    }
+    },
+    "description": "Retrieve a temporary file ID to start uploading a media file for use in another api call"
   },
   {
     "type": "get",
-    "url": "",
+    "url": "Get",
     "title": "Read Configurationupload",
     "name": "Read_ConfigurationUpload",
     "group": "Upload",
@@ -20674,7 +20942,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "the configuration for a specified upload type, currently only supports mms"
   },
   {
     "type": "post",
@@ -20749,7 +21018,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Upload a chunk of data to a file with id returned in create"
   },
   {
     "type": "post",
@@ -20803,7 +21073,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Count voicemail reminders"
   },
   {
     "type": "post",
@@ -20906,7 +21177,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Create voicemail reminder"
   },
   {
     "type": "post",
@@ -20960,7 +21232,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Delete a voicemail reminder"
   },
   {
     "type": "post",
@@ -21014,7 +21287,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Read a User's voicemail reminders"
   },
   {
     "type": "post",
@@ -21117,7 +21391,8 @@
           }
         ]
       }
-    }
+    },
+    "description": "Update voicemail reminder"
   },
   {
     "type": "post",
