@@ -471,17 +471,6 @@
         searchInput.focus();
       }
     });
-    
-    // Expandable auth section
-    const authItem = document.querySelector('.nav-item.expandable');
-    if (authItem) {
-      authItem.addEventListener('click', () => {
-        const subitems = authItem.nextElementSibling;
-        const isExpanded = subitems.style.display !== 'none';
-        subitems.style.display = isExpanded ? 'none' : 'block';
-        authItem.classList.toggle('expanded');
-      });
-    }
   }
 
   async function copyToClipboard(text) {
