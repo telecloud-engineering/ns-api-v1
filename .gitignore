@@ -35,3 +35,6 @@ venv/
 # Backup files
 *.bak
 *.backup
+
+# Development guidance files
+CLAUDE.md
