@@ -7,43 +7,21 @@
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <div class="top-bar">
-    <div class="top-bar-left">
-      <div class="logo">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <rect x="3" y="3" width="7" height="7" fill="currentColor"/>
-          <rect x="14" y="3" width="7" height="7" fill="currentColor"/>
-          <rect x="3" y="14" width="7" height="7" fill="currentColor"/>
-          <rect x="14" y="14" width="7" height="7" fill="currentColor"/>
-        </svg>
-      </div>
-      <nav class="top-nav">
-        <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link active">Guides</a>
-        <a href="#" class="nav-link">API Reference</a>
-        <a href="#" class="nav-link">Changelog</a>
-        <a href="#" class="nav-link">Discussions</a>
-      </nav>
-    </div>
-    <div class="top-bar-right">
-      <div class="search-container">
-        <input type="search" id="global-search" placeholder="Search" />
-        <kbd>CTRL+K</kbd>
-      </div>
-      <button class="theme-toggle">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-          <circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="2"/>
-          <path d="M10 2v2M10 16v2M2 10h2M16 10h2" stroke="currentColor" stroke-width="2"/>
-        </svg>
-      </button>
-    </div>
-  </div>
-
   <div class="layout">
     <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>NetSapiens API v1</h2>
+        <div class="search-box">
+          <input id="search" type="search" placeholder="Search endpoints..." autocomplete="off" />
+          <div class="search-hint">Press <kbd>/</kbd> to search</div>
+        </div>
+        <div class="server-config">
+          <label for="server-input">Server URL</label>
+          <input id="server-input" type="text" placeholder="your-server.com" />
+        </div>
+      </div>
+      
       <div class="sidebar-section">
-        <div class="sidebar-title">NETSAPIENS API V1</div>
-        
         <div id="api-groups" class="api-groups">
           <!-- API groups will be dynamically inserted here -->
         </div>
@@ -65,8 +43,13 @@
         </div>
 
         <div class="params-section" id="params-section" style="display: none;">
-          <h2>Body Params</h2>
-          <div id="params-list"></div>
+          <h2>Parameters</h2>
+          <div class="params-form" id="params-form">
+            <!-- Dynamic parameter inputs will be inserted here -->
+          </div>
+          <div class="params-documentation" id="params-list">
+            <!-- Parameter documentation will be shown here -->
+          </div>
         </div>
 
         <div class="responses-section" id="responses-section" style="display: none;">
@@ -93,7 +76,7 @@
       <div class="code-content">
         <div class="code-section">
           <div class="code-label">
-            <span>URL</span>
+            <span>Live API URL</span>
             <button class="copy-btn" data-copy="url">Copy</button>
           </div>
           <div class="url-box">
@@ -103,7 +86,7 @@
 
         <div class="code-section">
           <div class="code-label">
-            <span>cURL Request</span>
+            <span>Request</span>
             <button class="copy-btn" data-copy="curl">Copy</button>
           </div>
           <pre class="code-block" id="curl-example"><code>curl -X GET \
@@ -111,9 +94,17 @@
   -H "Authorization: Bearer YOUR_TOKEN"</code></pre>
         </div>
 
+        <div class="code-section">
+          <div class="code-label">
+            <span>Test Request</span>
+            <button class="test-btn" id="test-request">Send Test Request</button>
+          </div>
+          <div class="test-info">Configure server URL and parameters to test</div>
+        </div>
+
         <div class="code-section" id="response-example" style="display: none;">
           <div class="code-label">
-            <span>Example Response</span>
+            <span>Response</span>
           </div>
           <pre class="code-block"><code id="response-display">{
   "status": "success",
